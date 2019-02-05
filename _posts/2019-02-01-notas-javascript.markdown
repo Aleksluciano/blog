@@ -1,10 +1,14 @@
 ---
 layout: post
 title:  "Notas em Javascript"
-date:   2019-02-01 20:15:48 -0200
+date:   2019-02-02 20:15:48 -0200
 categories: javascript
 ---
-*for of => array, for in => objeto*
+
+Anotações
+
+for of => array, for in => objeto
+
 {% highlight javascript %}
 
 let letrasArray = ['a', 'b', 'c'];
