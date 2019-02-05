@@ -46,13 +46,16 @@ for ( let elemento in letrasMap ){
 
 *reduce*
 {% highlight javascript %}
+
 let numeros = [1,2,3,4,5];
 let total = numeros.reduce((soma,elemento) => soma + elemento)
 console.log(total) //=> 15
+
 {% endhighlight %}
 
 *every* => testa se todas as condições são verdadeiras
 {% highlight javascript %}
+
 let numeros = [1,2,3,4,5];
 let todos_igual_3 = numeros.every((elemento) => elemento == 3)
 console.log(todos_igual_3) //=> false
@@ -71,5 +74,6 @@ console.log(algum_igual_3) //=> true
 numeros = [1,2,2,4,5];
 algum_igual_3 = numeros.some((elemento) => elemento == 3)
 console.log(algum_igual_3) //=> false
+
 {% endhighlight %}
 

@@ -4,7 +4,11 @@ title:  "Inverter inteiro"
 date:   2019-02-02 20:15:48 -0200
 categories: javascript
 ---
+
+Ini
+
 {% highlight javascript %}
+
 function inverte_inteiro (n) {
 
 const inteiro_string =  n
@@ -25,5 +29,6 @@ let numero_saida  = inverte_inteiro(numero_entrada);
 console.log(numero_saida);
 
 // => -435
+
 {% endhighlight %}
 
