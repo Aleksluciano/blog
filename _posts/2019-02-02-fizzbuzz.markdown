@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Fizz Buzz"
+date:   2019-02-02 20:15:48 -0200
+categories: javascript
+---
+A idéia aqui é fazer com que dado um número, ao fazermos um loop até este número, cada vez que ele for múltiplo de 3 imprima 'fizz' e cada vez que ele for múltiplo de 5 imprima 'buzz'. Se o número for múltiplo de 3 e 5 então deve imprimir 'fizzbuzz'.
+
+Para isso vamos utilizar o operador módulo %. Ele mostra o resto de uma divisão por um número. Se o resto for igual a 0, então sabemos que o número é um múltiplo.
+
+{% highlight js %}
+function fizzBuzz(n) {
+
+  for (let i = 1; i <= n; i++) {
+   
+    if (i % 3 === 0 && i % 5 === 0) {
+
+      console.log('fizzbuzz');
+
+    } else if (i % 3 === 0) {
+   
+      console.log('fizz');
+
+    } else if (i % 5 === 0) {
+
+      console.log('buzz');
+    } else {
+
+      console.log(i);
+
+    }
+  }
+}
+
+let numero_entrada = 15;
+let numero_saida  = fizzBuzz(numero_entrada);
+
+// => 1
+//    2
+//    fizz
+//    4
+//    buzz
+//    fizz
+//    7
+//    8
+//    fizz
+//    buzz
+//    11
+//    fizz
+//    13
+//    14
+//    fizzbuzz
+{% endhighlight %}
+
