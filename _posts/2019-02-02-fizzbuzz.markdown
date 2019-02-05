@@ -8,7 +8,7 @@ A idéia aqui é fazer com que dado um número, ao fazermos um loop até este n�
 
 Para isso vamos utilizar o operador módulo %. Ele mostra o resto de uma divisão por um número. Se o resto for igual a 0, então sabemos que o número é um múltiplo.
 
-{% highlight js %}
+{% highlight javascript %}
 function fizzBuzz(n) {
 
   for (let i = 1; i <= n; i++) {

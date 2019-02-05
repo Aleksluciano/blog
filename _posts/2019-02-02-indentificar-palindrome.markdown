@@ -9,7 +9,7 @@ Um palindrome é uma frase ou palavra que pode ser lida da esquerda para direita
 
 Primeira forma de identificar uma palindrome:
 
-{% highlight js %}
+{% highlight javascript %}
 function identifica_palindrome (palavra) {
 
   return palavra.split('').every((letra, i) => {
@@ -22,7 +22,7 @@ function identifica_palindrome (palavra) {
 
 Segunda forma:
 
-{% highlight js %}
+{% highlight javascript %}
 
 function identifica_palindrome (palavra) {
 
@@ -37,7 +37,7 @@ const palavra_invertida = palavra
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 let palavra_entrada = 'casa';
 let palindrome_valida = identifica_palindrome (palavra_entrada);

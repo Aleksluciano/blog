@@ -6,7 +6,7 @@ categories: javascript
 ---
 
 *for of => array, for in => objeto*
-{% highlight js %}
+{% highlight javascript %}
 
 let letrasArray = ['a', 'b', 'c'];
 
@@ -42,14 +42,14 @@ for ( let elemento in letrasMap ){
 {% endhighlight %}
 
 *reduce*
-{% highlight js %}
+{% highlight javascript %}
 let numeros = [1,2,3,4,5];
 let total = numeros.reduce((soma,elemento) => soma + elemento)
 console.log(total) //=> 15
 {% endhighlight %}
 
 *every* => testa se todas as condições são verdadeiras
-{% highlight js %}
+{% highlight javascript %}
 let numeros = [1,2,3,4,5];
 let todos_igual_3 = numeros.every((elemento) => elemento == 3)
 console.log(todos_igual_3) //=> false
@@ -60,7 +60,7 @@ console.log(todos_igual_3) //=> true
 {% endhighlight %}
 
 *some* => testa se alguma condição é verdadeira
-{% highlight js %}
+{% highlight javascript %}
 let numeros = [1,2,3,4,5];
 let algum_igual_3 = numeros.some((elemento) => elemento == 3)
 console.log(algum_igual_3) //=> true

@@ -6,7 +6,7 @@ categories: javascript
 ---
 Primeira forma de inverter uma palavra:
 
-{% highlight js %}
+{% highlight javascript %}
 function inverte_palavra (palavra) {
 
   return palavra
@@ -22,7 +22,7 @@ function inverte_palavra (palavra) {
 
 Segunda forma:
 
-{% highlight js %}
+{% highlight javascript %}
 
  function inverte_palavra (palavra) {
 
@@ -40,7 +40,7 @@ Segunda forma:
 
 Terceira forma:
 
-{% highlight js %}
+{% highlight javascript %}
 
 function inverte_palavra (palavra) {
 
@@ -52,7 +52,7 @@ function inverte_palavra (palavra) {
 
 {% endhighlight %}
 
-{% highlight js %}
+{% highlight javascript %}
 
 let palavra_entrada = 'casa';
 let palavra_saida  = inverte_palavra(palavra_entrada);

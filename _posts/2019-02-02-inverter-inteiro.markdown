@@ -4,7 +4,7 @@ title:  "Inverter inteiro"
 date:   2019-02-02 20:15:48 -0200
 categories: javascript
 ---
-{% highlight js %}
+{% highlight javascript %}
 function inverte_inteiro (n) {
 
 const inteiro_string =  n

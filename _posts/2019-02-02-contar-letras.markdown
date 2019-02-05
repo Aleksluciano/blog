@@ -7,7 +7,7 @@ categories: javascript
 
 Vamos contar o número de vezes que uma letra existe em uma palavra ou sentença. A letra que for mais utilizada, será retornada pela função.
 
-{% highlight js %}
+{% highlight javascript %}
 function letra_mais_utilizada(frase) {
   
   const letraMap = {};
